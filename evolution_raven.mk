@@ -14,6 +14,7 @@ TARGET_PIXEL_STAND_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_raven.mk)

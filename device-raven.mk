@@ -160,6 +160,9 @@ ACTUATOR_MODEL := luxshare_ict_081545
 # Display LBE
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.lbe.supported=1
 
+# Fs-verity
+PRODUCT_PRODUCT_PROPERTIES += ro.apk_verity.mode=2
+
 # Media Performance Class 12
 PRODUCT_PROPERTY_OVERRIDES += ro.odm.build.media_performance_class=31
 
